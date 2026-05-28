@@ -1,6 +1,20 @@
-/* Reset básico e fixo */
+/* Reset básico mantendo seu estilo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #090c14, #121212);
+  color: white;
+  min-height: 100vh;
+}
+
+/* Header (Menu) */
 header {
-  padding: 20px 0;
+  padding: 30px;
   text-align: center;
 }
 
@@ -9,25 +23,71 @@ nav ul {
   justify-content: center;
   list-style: none;
   gap: 20px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 nav a {
-  color: #fff;
+  color: #8b8b8b;
   text-decoration: none;
-  font-family: 'Space Grotesk';
+  font-size: 0.9rem;
+  transition: 0.3s;
 }
 
-/* Espaçamento entre seções */
+nav a:hover {
+  color: #0044ff;
+}
+
+/* Container principal para manter o seu estilo de "Card" */
 .container {
-  margin: 50px auto;
+  background: #181818;
   max-width: 420px;
-  padding: 20px;
+  margin: 20px auto;
+  padding: 40px 30px;
+  border-radius: 12px; /* Adicionei um arredondado suave */
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  text-align: center;
 }
 
-/* Ajuste da lista */
+/* Estilo dos elementos dentro dos containers */
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #000000;
+  margin-bottom: 20px;
+}
+
+h1 { font-size: 1.8rem; color: #0044ff; margin-bottom: 8px; }
+
+.role { color: #8b8b8b; margin-bottom: 20px; }
+
 #servicos ul {
   list-style: none;
-  padding: 0;
   text-align: left;
+  margin-top: 15px;
+}
+
+#servicos li {
+  margin-bottom: 10px;
+  color: #c7c7c7;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.social-btn {
+  width: 50px;
+  height: 50px;
+  background: #252525;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0044ff;
+  text-decoration: none;
+  transition: 0.3s;
 }
