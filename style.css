@@ -55,11 +55,12 @@ h1{
 }
 
 
-.socials{
-  display:flex;
-  justify-content:center;
-  gap:16px;
-}
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 30px;
+  margin-bottom: 20px; 
 
 .social-btn{
   width:55px;
