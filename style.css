@@ -60,3 +60,30 @@ nav a:hover {
   margin: 0 auto 20px auto; 
   display: block;
 }
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 25px; /* Aumenta o espaço entre os botões */
+  margin-top: 25px;
+}
+
+.social-btn {
+  width: 65px !important;  /* Aumenta a largura */
+  height: 65px !important; /* Aumenta a altura */
+  background: #252525 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0044ff !important;
+  text-decoration: none;
+  border-radius: 12px;     /* Borda arredondada moderna */
+  transition: 0.3s;
+  font-size: 1.8rem;       /* Aumenta o tamanho do ícone dentro do botão */
+}
+
+.social-btn:hover {
+  background: #0044ff !important;
+  color: white !important;
+  transform: translateY(-5px);
+}
+
