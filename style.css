@@ -87,3 +87,16 @@ h1{
   font-size:.95rem;
 }
 
+/* Remove os pontos da lista */
+.services ul {
+  list-style: none; /* Isso remove os pontos */
+  padding: 0;       /* Remove o espaçamento padrão da lista */
+}
+
+/* Ajusta o espaçamento entre as linhas */
+.services li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+
