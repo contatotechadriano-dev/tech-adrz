@@ -3,94 +3,50 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
   <title>Adri | Front-End Developer</title>
-
-  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
-
-  <!-- Ícones -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  />
-
-  <!-- Fonte -->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-  <div class="card">
+  <header>
+    <nav>
+      <div class="logo">ADRIANO AQUINO</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- SUA FOTO -->
-    <img
-      src="suafoto.png"
-      alt="Foto de Adri"
-      class="profile-img"
-    >
+  <main>
+    <section id="home" class="container">
+      <img src="suafoto.png" alt="Foto de Adri" class="profile-img">
+      <h1>ADRIANO AQUINO</h1>
+      <p class="role">Front-End Developer • Engenharia de Software</p>
+    </section>
 
-    <h1>ADRIANO AQUINO</h1>
+    <section id="servicos" class="container">
+      <h2>O que faço</h2>
+      <ul>
+        <li>✅ Landing Pages profissionais</li>
+        <li>✅ Sites para negócios</li>
+        <li>✅ Design moderno e responsivo</li>
+        <li>✅ Integração com WhatsApp</li>
+      </ul>
+    </section>
 
-    <p class="role">
-      Front-End Developer • Engenharia de Software
-    </p>
-
-    <p class="description">
-      <!-- Seção de Serviços -->
-<div class="services">
-  <h3>O que faço</h3>
-  <ul>
-    <li>✅ Landing Pages profissionais</li>
-    <li>✅ Sites para negócios</li>
-    <li>✅ Design moderno e responsivo</li>
-    <li>✅ Integração com WhatsApp</li>
-  </ul>
-</div>
-
-
-    </p>
-
-    <!-- REDES -->
-    <div class="socials">
-
-      <!-- Instagram -->
-      <a
-        href="https://instagram.com/aquinoo.dev"
-        target="_blank"
-        class="social-btn"
-      >
-        <i class="fab fa-instagram"></i>
-      </a>
-
-      <!-- GitHub -->
-      <a
-        href="https://github.com/contatotechadriano-dev"
-        target="_blank"
-        class="social-btn"
-      >
-        <i class="fab fa-github"></i>
-      </a>
-      <!-- Whatsapp -->
-      <a
-        href="https://wa.me/71933002341"
-        target="_blank"
-        class="social-btn"
-      >
-        <i class="fab fa-whatsapp"></i>
-      </a>
-    </div>
-      
-
-    <p class="status">
-      ● Disponível para freelancer
-    
-    </p>
-
-  </div>
+    <section id="contato" class="container">
+      <div class="socials">
+        <a href="https://instagram.com/aquinoo.dev" target="_blank" class="social-btn"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/contatotechadriano-dev" target="_blank" class="social-btn"><i class="fab fa-github"></i></a>
+        <a href="https://wa.me/71933002341" target="_blank" class="social-btn"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <p class="status">● Disponível para freelancer</p>
+    </section>
+  </main>
 
 </body>
 </html>
