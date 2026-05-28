@@ -87,3 +87,32 @@ nav a:hover {
   transform: translateY(-5px);
 }
 
+/* Layout para Computadores */
+@media (min-width: 900px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Faz os cards ficarem lado a lado se você quiser, 
+     ou apenas mais elegantes centralizados */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+  }
+
+  .container {
+    margin: 0; /* Remove a margem automática de cima/baixo */
+    min-width: 350px; /* Garante um tamanho mínimo bonito */
+    transition: transform 0.3s ease;
+  }
+
+  .container:hover {
+    transform: translateY(-10px); /* Efeito "flutuante" ao passar o mouse */
+  }
+}
+
